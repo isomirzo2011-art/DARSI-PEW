@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.salom1 {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.salom2 {
+  display: flex;
+ 
+  align-items: center;
+  padding: 10px 40px;
+  font-size: 12px;
+  color: #666;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.salom4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.salom5 {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.salom6 {
+  font-weight: bold;
+  color: #222;
+}
+
+.salom7 {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.salom8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.salom11 {
+  display: flex;
+  gap: 20px;
+}
+
+.salom11 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.salom11 a:hover {
+  color: #27ae60;
+}
+
+
+.salom21 {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 30px 40px;
+  min-height: 80vh;
+  border-radius: 4px;
+}
+
+.salom22 {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.salom23 {
+  color: #777;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.salom26 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 25px;
+}
+
+.salom27 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.salom28 {
+  display: flex;
+  flex: 1;
+  min-width: 480px;
+  border-radius: 6px;
+  overflow: hidden;
+  color: #fff;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salom_green {
+  background-color: #27ae60;
+}
+
+.salom_blue {
+  background-color: #00bcd4;
+}
+
+.salom29 {
+  max-width: 260px;
+}
+
+.salom30 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.salom31 {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.salom32 {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.salom33 {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.salom34 {
+  width: 180px;
+  height: 140px;
+}
+
+.salom35 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .salom28 {
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .salom8 {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .salom11 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
