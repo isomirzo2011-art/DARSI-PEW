@@ -540,7 +540,24 @@ body {
 .salom711:hover {
   text-decoration: underline;
 }
-@media (max-width: 768px) {
+.salomm{
+  display: none;
+}
+@media (max-width: 500px) {
+  .salomm{
+    margin-top: -39px;
+    margin-left: 300px;
+    display: block;
+  }
+  .salom2{
+    display: none;
+  }
+  .salom11{
+    display: none;
+  }
+  .salom10{
+    display: block;
+  }
   .salom28 {
     min-width: 100%;
     flex-direction: column;
@@ -579,5 +596,8 @@ body {
     flex-direction: column;
     gap: 40px;
   }
-
+.salom909{
+  margin-top: 300px;
+  margin-left: -140px;
+}
 }
