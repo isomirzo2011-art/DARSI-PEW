@@ -372,6 +372,174 @@ body {
   width: 480px;
   height: 644px;
 }
+.salom600 {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.salom601 {
+  background-color: #21252d;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 60px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.salom602 {
+  max-width: 480px;
+  z-index: 2;
+}
+
+.salom603 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.salom604 {
+  font-size: 14px;
+  color: #b0b5c1;
+  margin-bottom: 30px;
+}
+
+.salom605 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.salom606 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.salom607 {
+  font-size: 13px;
+}
+
+.salom608 {
+  width: 100%;
+  padding: 14px 18px;
+  background-color: #f0f3f8;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.salom609 {
+  width: 100%;
+  padding: 14px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.salom610 {
+  font-size: 11px;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.salom611 {
+  width: 350px;
+  height: 380px;
+}
+
+.salom612 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.salom700 {
+  background-color: #229355;
+  color: #fff;
+  padding: 60px 40px;
+  margin-top: 60px;
+}
+
+.salom701 {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.salom702 {
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.salom703 {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.salom704 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.salom705 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.salom706 {
+  font-size: 12px;
+  color: #e2e8f0;
+}
+
+.salom707 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.salom708 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.salom709 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.salom710 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.salom711 {
+  font-size: 13px;
+  color: #f1f5f9;
+  
+}
+
+.salom711:hover {
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   .salom28 {
     min-width: 100%;
@@ -400,5 +568,16 @@ body {
     max-width: 300px;
   }
 
+.salom601 {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .salom611 {
+    display: none;
+  }
+  .salom701 {
+    flex-direction: column;
+    gap: 40px;
+  }
 
 }
