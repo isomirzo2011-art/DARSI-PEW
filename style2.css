@@ -170,13 +170,13 @@
 }
 body {
   background-color: #f7f8fa;
-  padding: 40px 20px;
+  
   color: #222;
 }
 
 .salom200, .salom300 {
   max-width: 1200px;
-  margin: 0 auto 60px auto;
+  
 }
 
 .salom201, .salom301 {
