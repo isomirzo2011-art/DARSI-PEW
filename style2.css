@@ -274,6 +274,104 @@ body {
 .salom308:last-child {
   border-bottom: none;
 }
+body {
+ color: white;
+  color: #fff;
+  
+}
+
+ 
+.salom400 {
+  max-width: 1200px;
+  margin: 0 auto 80px auto;
+ 
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.salom402 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.salom403 {
+    background-color: #111;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.salom404 {
+  flex: 1;
+
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.salom405 {
+  font-size: 14px;
+  color: #d1d5db;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.salom_dot {
+  width: 7px;
+  height: 7px;
+  background-color: #27ae60;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+ 
+.salom500 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #111;
+
+  border-radius: 8px;
+}
+
+.salom501 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: #111;
+}
+
+.salom502 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.salom503 {
+  flex: 1;
+  min-width: 220px;
+  height: 350px;
+  background-color: #f0f2f5;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.salom504 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.salom909{
+  margin-top: -400px;
+  margin-left: 200px;
+  width: 480px;
+  height: 644px;
+}
 @media (max-width: 768px) {
   .salom28 {
     min-width: 100%;
@@ -290,5 +388,17 @@ body {
   .salom202, .salom302 {
     flex-direction: column;
   }
+  .salom403 {
+    gap: 14px;
+  }
+  .salom502 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .salom503 {
+    width: 100%;
+    max-width: 300px;
+  }
+
 
 }
